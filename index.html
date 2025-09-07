@@ -24,7 +24,7 @@
                 <p class="name" style="text-align: center;">
                   Yushuo Chen
                 </p>
-                <p>I'm currently a 2nd-year Ph.D. student from Tsinghua University, advised by Prof. <a href="https://liuyebin.com/">Yebin Liu</a>. Previously, I received my bachlor's degree at Yao Class, <a href="https://iiis.tsinghua.edu.cn/en/">IIIS</a>, advised by Prof. <a href="https://ericyi.github.io/">Li Yi</a>.
+                <p>I'm currently a 3rd-year Ph.D. student from Tsinghua University, advised by Prof. <a href="https://liuyebin.com/">Yebin Liu</a>. Previously, I received my bachlor's degree at Yao Class, <a href="https://iiis.tsinghua.edu.cn/en/">IIIS</a>, advised by Prof. <a href="https://ericyi.github.io/">Li Yi</a>.
                 </p>
                 <p>
                   My research interests lie in Computer Vision and Graphics, especially in the field of <b style="color: darkorange">digital humans</b>. Currently, I'm focusing on <b style="color: darkorange">dynamic human modeling and understanding</b>. Feel free to reach out for any topics!
@@ -50,7 +50,7 @@
                 <h2>News</h2>
                 <p>
                   <ul>
-                    <li>My first paper is accepted by ECCV 2024! Many thanks to all my previous collaborators for their kind helps!</li>
+                    <li>[2024.07] My first paper is accepted by ECCV 2024! Many thanks to all my previous collaborators for their kind helps!</li>
                   </ul>
                 </p>
               </td>
@@ -66,6 +66,107 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+    <tr onmouseout="devilsight_stop()" onmouseover="devilsight_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <span class="helper"></span>
+          <div class="two" id='devilsight_image'><video  width=100% muted autoplay loop>
+          <source src="images/devilsight.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/devilsight.png' width=100%/>
+        </div>
+        <script type="text/javascript">
+          function devilsight_start() {
+            document.getElementById('devilsight_image').style.opacity = "1";
+          }
+
+          function devilsight_stop() {
+            document.getElementById('devilsight_image').style.opacity = "0";
+          }
+          devilsight_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <!-- <a href="https://pengc02.github.io/pghm/"> -->
+          <span class="papertitle">DevilSight: Augmenting Monocular Human Avatar Reconstruction through a Virtual Perspective </span>
+        <!-- </a> -->
+        <br>
+        <strong>Yushuo Chen</strong>,
+        <a href="https://dsaurus.github.io/saurus/">Ruizhi Shao</a>,
+        <a href="https://carlyx.github.io/">Youxin Pang</a>,
+        <a href="https://zhanghongwen.cn/">Hongwen Zhang</a>,
+        Xinyi Wu,
+        Rihui Wu,
+        <a href="https://liuyebin.com/">Yebin Liu</a>
+        <br>
+        <em>arXiv Preprint</em>, 2025
+        <br>
+        <!-- <a href="https://pengc02.github.io/pghm/">Project Page</a>
+        /
+        <a href="https://github.com/pengc02/pghm/">Code</a>
+        / -->
+        <a href="https://arxiv.org/abs/2509.00403">arXiv</a>
+        <!-- /
+        <a href="https://youtu.be/Kpbpujkh2iI">Video</a> -->
+        <p></p>
+        <p>
+        We present a novel framework to reconstruct human avatars from monocular videos with high-fidelity and high-quality details,
+        by generating the human motions from alternative perspective as an additional supervision signal.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="pghm_stop()" onmouseover="pghm_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <span class="helper"></span>
+          <div class="two" id='pghm_image'><video  width=100% muted autoplay loop>
+          <source src="images/pghm.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/pghm.png' width=100%/>
+        </div>
+        <script type="text/javascript">
+          function pghm_start() {
+            document.getElementById('pghm_image').style.opacity = "1";
+          }
+
+          function pghm_stop() {
+            document.getElementById('pghm_image').style.opacity = "0";
+          }
+          pghm_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://pengc02.github.io/pghm/">
+          <span class="papertitle">Parametric Gaussian Human Model: Generalizable Prior for Efficient and Realistic Human Avatar Modeling</span>
+        </a>
+        <br>
+        <a href="https://pengc02.github.io/">Cheng Peng*</a>,
+        <a href="https://mrtornado24.github.io/">Jingxiang Sun*</a>,
+        <strong>Yushuo Chen</strong>,
+        <a href="https://suzhaoqi.github.io/">Zhaoqi Su</a>,
+        <a href="https://suzhuo.github.io/">Zhuo Su</a>,
+        <a href="https://liuyebin.com/">Yebin Liu</a>
+        <br>
+        <em>arXiv Preprint</em>, 2025
+        <br>
+        <a href="https://pengc02.github.io/pghm/">Project Page</a>
+        /
+        <a href="https://github.com/pengc02/pghm/">Code</a>
+        /
+        <a href="https://arxiv.org/abs/2506.06645">arXiv</a>
+        <!-- /
+        <a href="https://youtu.be/Kpbpujkh2iI">Video</a> -->
+        <p></p>
+        <p>
+          We present the Parametric Gaussian Human Model (PGHM), a generalizable and efficient framework that integrates human priors into 3DGS for fast and high-fidelity avatar reconstruction from monocular videos. 
+        <br>*equal contribution.
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="meshavatar_stop()" onmouseover="meshavatar_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
@@ -125,7 +226,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:left;font-size:small;">
-                  Last update on March 2025.
+                  Last update on September 2025.
                   <br>
                   The website template was adapted from <a href="https://jonbarron.info/">Jon Barron</a>. 
                 </p>
